@@ -1,0 +1,67 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input[type="submit"] {
+    background-color: darkgrey;
+    border-color: black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button {
+    font-size: 5rem;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    background-color: lightgray;
+    border: none;
+}
+
+button:hover,
+button:active, 
+button.selected {           
+        font-size: 8rem;
+}
+
+
+

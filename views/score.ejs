@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="css/score.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1></h1>
+    <h2><%-player1Name%>'s result: <%=result%></h2>
+    <p>Current Score: <%=score%></p>
+    <form action="/game" method="get">
+
+        <p>Player 1: <%-player1Name%>'s Choice:</p>
+        <p class="emoji"><%-userInput%></p>
+
+        <p>Player 2: Computer's Choice</p>
+        <p class="emoji"><%-computerChoice%></p>
+        
+            <input id="play-button" type="submit" value="Play again!">
+        </form>
+</body>
+
+</html>
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="css/game.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  
+        <h1></h1>
+        <h2>Please make your selection!</h2>
+        <p></p>
+        <form action="/score" method="post">
+
+            <p>Player 1: <%= player1Name %></p>
+            <p>
+                <button name="play" value="rock" type="submit" onclick="selectMove('&#x1F44A;')">&#x1F44A;</button>
+                <button name="play" value="paper" type="submit" onclick="selectMove('&#x270B;')">&#x270B;</button>
+                <button name="play" value="scissors" type="submit" onclick="selectMove('&#x1F596;')">&#x270C;</button>
+            <p>                
+            <p>Player 2: Computer </p><br>A random selection! &#x1F601; </p>
+
+        </form>
+</body>
+
+</html>
+
